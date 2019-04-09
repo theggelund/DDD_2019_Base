@@ -44,6 +44,7 @@ object Build : BuildType({
     steps {
         exec {
             path = "build.sh"
+            arguments = "--coverage"
         }
     }
 
